@@ -5,7 +5,7 @@
 
 ### App Walk-though
 
-![](https://recordit.co/OfWzn9o1zx)
+![](http://g.recordit.co/OfWzn9o1zx.gif)
 
 ## Required
 - [X] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
