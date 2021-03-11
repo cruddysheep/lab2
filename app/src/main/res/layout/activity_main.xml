@@ -8,30 +8,41 @@
 
     <TextView
         android:id="@+id/Question1"
-        android:layout_width="390dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="50dp"
-        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#63B8FF"
+        android:gravity="center"
         android:text="Who is the 44th President of the United States?"
         android:textSize="48dp"
-        android:textStyle="bold"
-        android:background="#63B8FF"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/Answer1"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
+        android:background="#66CDAA"
         android:gravity="center"
         android:text="Barack Obama"
-        android:layout_centerHorizontal="true"
-        android:visibility="invisible"
         android:textSize="50dp"
         android:textStyle="bold"
-        android:background="#66CDAA"
-        />
+        android:visibility="invisible" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addCardButton"
+        android:layout_width="92dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:backgroundTint="#f2f2f2"
+        app:maxImageSize="60dp"
+        app:srcCompat="@android:drawable/ic_menu_add" />
 
 
 </RelativeLayout>
